@@ -1,10 +1,10 @@
 <div class="container_small-card">
   <div class="container_small-card-content">
     <div class="img_small-card">
-      <img src="https://www.unfe.org/wp-content/uploads/2019/04/SM-placeholder.png" alt="img placeholder">
+      <img src="{{photoCover}}" alt="img placeholder">
     </div>
     <div class="title_small-card">
-      <p>Lorem ipsum dolor sit amet.</p>
+      <p><a [routerLink]="['content', Id]">{{cardTitle}}</a></p>
     </div>
   </div>
   <div class="container_small-card-hr">
